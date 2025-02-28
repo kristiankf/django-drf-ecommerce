@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django-related
+*.log
+*.pot
+*.pyc
+*.swp
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Local environment settings
+.env
+.env.local
+.env.production
+.env.development
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Migrations (optional: if you want to keep them, remove this)
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.py, !**/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# pytest cache
+.pytest_cache/
+
+# MyPy type checking cache
+.mypy_cache/
+
+# Sentry debug files
+.sentrycli
+
+# Other IDE settings (PyCharm)
+.idea/
+*.iml
