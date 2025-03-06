@@ -3,6 +3,7 @@ class TestCategoryModel:
         #Arrange
         #Act
         #Assert
+        pass
 
 class TestBrandModel:
     pass
